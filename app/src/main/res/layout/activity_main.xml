@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sterbon.smartbytes.MainActivity"
+    android:background="@drawable/backg">
+
+
+    <TextView
+        android:id="@+id/td_txt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lw_txt"
+        android:layout_alignStart="@+id/lw_txt"
+        android:layout_marginBottom="70dp"
+        android:text="Your monthly high-speed data limit is: "
+        android:textColor="@color/text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/td"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/td_txt"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp"
+        android:textStyle="bold"
+        android:text=" "
+        android:textColor="@color/text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
+
+    <TextView
+        android:id="@+id/lw_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/text"
+        android:text="You are left with: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/lw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text"
+        android:layout_alignEnd="@+id/td"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/lw_txt"
+        android:text=" "
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
+
+    <TextView
+        android:id="@+id/dl_txt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="No. of days left in the current bill cycle:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_alignBottom="@+id/dl"
+        android:layout_alignStart="@+id/lw_txt"
+        android:textColor="@color/text"/>
+
+    <TextView
+        android:id="@+id/dl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        android:layout_alignStart="@+id/lw"
+        android:layout_marginBottom="146dp"
+        android:text=" "
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
+
+    <Button
+        android:id="@+id/refresh"
+        style="@android:style/Widget.DeviceDefault.Light.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/td"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="REFRESH" />
+
+
+    <com.google.android.gms.ads.AdView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adView"
+        android:layout_weight="0.6"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        ads:adSize="BANNER"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView"
+        android:layout_alignStart="@+id/dl_txt"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="21dp"
+        android:text="Per Day Consumption: "
+        android:textAllCaps="true"
+        android:textColor="@color/text"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/eg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    "
+        android:textColor="@color/text"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6"
+        android:layout_marginStart="19dp" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "786163875652",
+    "firebase_url": "https://smartbytes-bc7ec.firebaseio.com",
+    "project_id": "smartbytes-bc7ec",
+    "storage_bucket": "smartbytes-bc7ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786163875652:android:d13d6dd98ae201e1",
+        "android_client_info": {
+          "package_name": "com.sterbon.smartbytes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786163875652-uqqrjq8gm0o134glbph4h3oi2l4fl9at.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sterbon.smartbytes",
+            "certificate_hash": "2475104efe017ac9e4feb2ff8722d597309b0bf7"
+          }
+        },
+        {
+          "client_id": "786163875652-e6nn1qojvmtksmn8bqi1dd524vl9b62j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcbbbAn3MijTrVAQ6GrskuFu9z2k3J3I0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786163875652-e6nn1qojvmtksmn8bqi1dd524vl9b62j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

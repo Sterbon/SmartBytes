@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "847345674638",
+    "firebase_url": "https://smartbytes-7174f.firebaseio.com",
+    "project_id": "smartbytes-7174f",
+    "storage_bucket": "smartbytes-7174f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847345674638:android:d13d6dd98ae201e1",
+        "android_client_info": {
+          "package_name": "com.sterbon.smartbytes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847345674638-lsros1h7jru2dmtn43fi7qviaci1f1jq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm-ZLBYP7ulgfO0C8w2e6ah9hKY30cmIo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
